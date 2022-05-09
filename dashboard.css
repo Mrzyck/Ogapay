@@ -1,0 +1,91 @@
+body {
+  background-color: darkblue;
+   
+}
+table, th, td {
+  width: 50%;
+  margin: auto;
+  border: 1px solid cadetblue;
+  color: #f1f1f1;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+} 
+
+  img {
+    border-radius: 50%;
+  padding: 5px;
+  width: 50px;
+  }
+  h3{
+    color:#f1f1f1;
+    display: inline-block;
+    padding-top: 10px;
+
+  }
+  
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: none;
+    color: whitesmoke;
+    overflow: auto;
+    opacity: none;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: darkblue;
+    border-radius: 20px;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: darkblue;
+    border-radius: 20px;
+  }
+  .section {
+    padding: 4px ;
+    font-size: 20px;
+    color:whitesmoke;
+    background: darkblue;
+    font-family: georgia;
+    align-items: center;
+  }
+  .transfer {
+    text-align: center;
+    padding: 5px;
+    background: darkblue;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .transfer a{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .transfer a:hover {
+    background-color: darkcyan;
+    border-radius: 25px;
+  }
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 150px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+    
